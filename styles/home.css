@@ -11,7 +11,7 @@ body {
 
 .rudy-cards__wrapper {
   padding: 20px 0;
-  background-image: 
+  /* background-image: 
     linear-gradient(to bottom, rgba(51, 51, 51, 1), rgba(255, 255, 255, 0)),
     linear-gradient(to top, rgba(51, 51, 51, 1), rgba(255, 255, 255, 0));
   background-repeat: 
@@ -22,7 +22,7 @@ body {
     100% 100px;
   background-position: 
     top left,
-    bottom left;
+    bottom left; */
 }
 
 .rudy-cards {
