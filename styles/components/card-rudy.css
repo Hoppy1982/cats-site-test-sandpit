@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.rudy-card {
+  display: flex;
+  flex-direction: column;
+  background: #333;
+  min-height: 30px;
+  border: 1px solid #333;
+}
+
+.rudy-card h3 {
+  color: #fff;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+
+.rudy-card p {
+  color: #fff;
+  padding: 0 10px;
+  flex: 1 1 auto;
+}
+
+.rudy-card img {
+  object-fit: cover;
+  width: 100%;
+}
+

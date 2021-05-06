@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@import "global/variables.css";
+@import "global/util.css";
+@import "components/card-rudy.css";
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+}
+
+.rudy-cards__wrapper {
+  padding: 20px 0;
+  background-image: 
+    linear-gradient(to bottom, rgba(51, 51, 51, 1), rgba(255, 255, 255, 0)),
+    linear-gradient(to top, rgba(51, 51, 51, 1), rgba(255, 255, 255, 0));
+  background-repeat: 
+    no-repeat,
+    no-repeat;
+  background-size:
+    100% 100px,
+    100% 100px;
+  background-position: 
+    top left,
+    bottom left;
+}
+
+.rudy-cards {
+  display: grid;
+  grid-row-gap: var(--grid-gap);
+  grid-column-gap: var(--grid-gap);
+  grid-template-columns: 
+    repeat( auto-fit, minmax(280px, 1fr) );
+}
